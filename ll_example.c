@@ -60,7 +60,6 @@ int main( void )
   /* Clear all nodes at the end of nodes*/
    puts("Clear all nodes");
 
-   LLPtr tempPtr; // สร้าง pointer ชั่วคราวมาช่วยจำตำแหน่ง
    while ( startPtr != NULL ) { 
       printf("delete %d\n",startPtr->data);
       deletes( &startPtr, startPtr->data );
